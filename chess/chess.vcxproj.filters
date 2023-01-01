@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\board.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\parser.c" />
+    <ClCompile Include="src\slist.c" />
+    <ClCompile Include="src\chessmen\bishop.c" />
+    <ClCompile Include="src\chessmen\chessman.c" />
+    <ClCompile Include="src\chessmen\king.c" />
+    <ClCompile Include="src\chessmen\knight.c" />
+    <ClCompile Include="src\chessmen\new.c" />
+    <ClCompile Include="src\chessmen\nobody_between.c" />
+    <ClCompile Include="src\chessmen\queen.c" />
+    <ClCompile Include="src\chessmen\rook.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\board.h" />
+    <ClInclude Include="src\parser.h" />
+    <ClInclude Include="src\slist.h" />
+    <ClInclude Include="src\chessmen\bishop.h" />
+    <ClInclude Include="src\chessmen\chessman.h" />
+    <ClInclude Include="src\chessmen\king.h" />
+    <ClInclude Include="src\chessmen\knight.h" />
+    <ClInclude Include="src\chessmen\new.h" />
+    <ClInclude Include="src\chessmen\nobody_between.h" />
+    <ClInclude Include="src\chessmen\queen.h" />
+    <ClInclude Include="src\chessmen\rook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\test.txt" />
+  </ItemGroup>
+</Project>
