@@ -1,0 +1,3 @@
+replace from 1 to 10 "my text 3" with "TEXT2"
+undo
+replace from 1 to 10 "my text 3" with "TEXT2"

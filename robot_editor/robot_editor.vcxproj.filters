@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Commands\ChangeCommand.cpp" />
+    <ClCompile Include="src\Commands\DeleteCommand.cpp" />
+    <ClCompile Include="src\Commands\InsertCommand.cpp" />
+    <ClCompile Include="src\Commands\ReplaceCommand.cpp" />
+    <ClCompile Include="src\Client.cpp" />
+    <ClCompile Include="src\CommandFactory.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\TextEditor.cpp" />
+    <ClCompile Include="src\TextObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Commands\AbstractCommand.h" />
+    <ClInclude Include="src\Commands\ChangeCommand.h" />
+    <ClInclude Include="src\Commands\DeleteCommand.h" />
+    <ClInclude Include="src\Commands\InsertCommand.h" />
+    <ClInclude Include="src\Commands\ReplaceCommand.h" />
+    <ClInclude Include="src\Client.h" />
+    <ClInclude Include="src\CommandFactory.h" />
+    <ClInclude Include="src\TextEditor.h" />
+    <ClInclude Include="src\TextObject.h" />
+  </ItemGroup>
+</Project>
