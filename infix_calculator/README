@@ -1,0 +1,44 @@
+# InfixCalculator
+## Operations used:
+- command line input
+- multiplication, addition, division, integer division, remainder, subtraction, exponent
+- infix notation (operator between operands)
+- parentheses
+- variables (assignment, use)
+- set of predefined functions (sin, cos, sqrt, log, exp, abs, mod)
+= set of predefined constants (M_PI, M_E, EPSILON)
+- reasonable exception handling (1/0 ; log(-1) etc.)
+- expression list (; \n)
+- conditional (ternary) operator (or conditional function IF(condition, v1, v2) )
+## command list:
+- "+" - plus
+- "-" - minus
+- "*" - multiplication
+- "/" - division
+- "%" - remainder division
+- "#" - whole division
+- "^" - power
+- "(", "[", "{" - open brackets
+- ")", "]". "}" - close brackets
+- "0..9" - numbers
+- ".", "," - fraction
+- "M_PI" - const pi
+- "M_E" - const e
+- "EPS" - EPS = 1/1000/1000/1000/1000
+- "sin", "SIN" - sin(expr)
+- "cos", "COS" - cos(expr)
+- "tan", "TAN" - tan(expr)
+- "cot", "COT" - cot(expr)
+- "sqrt", "SQRT" - sqrt(expr)
+- "exp", "EXP" - exp(expr)
+- "log", "LOG" - log(expr;base), base - expr
+- "if", "IF" - if(cond1'=/>/<'cond2?res1:res2)
+    - example: if(cond1>cond2?res1:res2) - if cond1 more than cond2 result = res1 or result = res2
+    - "=" - equals
+    - ">" - more
+    - "<" - less
+- "a..z" - variables
+    - example: x:=12-3
+    - ":=" colon
+- "\n", ";" - between variables or between variable-expression
+- "\t", " " may use between commands
